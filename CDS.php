@@ -42,13 +42,16 @@
         case "editar":
             include("editar.php");
             break;
+            case "visualizar":
+                include("visualizar.php");
+                break;
             }?>
         </div>
     </div>
 <style>
 body{
     font-family: Arial, Helvetica, serif;
-    background-color: #ffffff;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -112,12 +115,6 @@ nav a{
 #consulta{
     background-color: #f9f9f9;
     padding: 20px;
-}
-.active {
-    display: flex;
-}
-.active .modal {
-    animation: modal 0.5s;  
 }
 </style>
 </body>

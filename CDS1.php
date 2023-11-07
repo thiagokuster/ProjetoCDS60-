@@ -18,25 +18,25 @@
                     <br><br>
 
                     <label for="categoria">Selecione uma Categoria: <span style="color: rgb(255, 0, 0);"> *</span></label>
-                    <select id="categoria" required name="seleccat">
+                    <select id="categoria" name="seleccat"  required >
                         <option value="" disabled selected>Selecione uma opção</option>
-                        <option value="assistencia_farmacêutica">Assistência Farmacêutica</option>
-                        <option value="atencao_especializada">Atenção Especializada</option>
-                        <option value="atencao_hospitalar">Atenção Hospitalar</option>
-                        <option value="doacao_orgaos_sangue_e_transplante">Doação de órgãos, sangue e transplante</option>
-                        <option value="educacional">Educacional</option>
-                        <option value="gerencial">Gerencial</option>
-                        <option value="informatica">Informática</option>
-                        <option value="judicializacao">Judicialização</option>
-                        <option value="logistico">Logístico</option>
-                        <option value="outros">Outros</option>
-                        <option value="prontuario_eletronico">Prontuário Eletrônico</option>
-                        <option value="regulacao">Regulação</option>
-                        <option value="telessaude">Telessaúde</option>
-                        <option value="vigilancia_ambiental">Vigilância Ambiental</option>
-                        <option value="vigilancia_epidemiologica">Vigilância Epidemiológica</option>
-                        <option value="vigilancia_laboratorial">Vigilância Laboratorial</option>
-                        <option value="vigilicia_sanitaria">Vigilância Sanitária</option>
+                        <option value="Assistência Farmacêutica">Assistência Farmacêutica</option>
+                        <option value="Atenção Especializada">Atenção Especializada</option>
+                        <option value="Atenção Hospitalar">Atenção Hospitalar</option>
+                        <option value="Doação de órgãos, sangue e transplante">Doação de órgãos, sangue e transplante</option>
+                        <option value="Educacional">Educacional</option>
+                        <option value="Gerencial">Gerencial</option>
+                        <option value="Informática">Informática</option>
+                        <option value="Judicialização">Judicialização</option>
+                        <option value="Logístico">Logístico</option>
+                        <option value="Outros">Outros</option>
+                        <option value="Prontuário Eletrônico">Prontuário Eletrônico</option>
+                        <option value="Regulação">Regulação</option>
+                        <option value="Telessaúde">Telessaúde</option>
+                        <option value="Vigilância Ambiental">Vigilância Ambiental</option>
+                        <option value="Vigilância Epidemiológica">Vigilância Epidemiológica</option>
+                        <option value="Vigilância Laboratorial">Vigilância Laboratorial</option>
+                        <option value="Vigilância Sanitária">Vigilância Sanitária</option>
                     </select> <br><br>
 
                     <label for="finalidade">Finalidade: <span style="color: rgb(255, 0, 0) ;"> *</span></label>
@@ -70,18 +70,18 @@
                     <label for="senha_exclusiva">Possui Senha Exclusiva para Consulta? <span style="color: rgb(255, 0, 0);"> *</span></label>
                     <select id="senha_exclusiva" required name="senhaexclusiva">
                         <option value="" disabled selected>Selecione uma opção</option>
-                        <option value="sim">Sim</option>
-                        <option value="nao">Não</option>
-                        <option value="nao_sei">Não Sei</option>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                        <option value="Não Sei">Não Sei</option>
                     </select>
                     <br><br>
 
                     <label for="manual_disponivel">Existe Manual ou Curso Disponível? <span style="color: rgb(255, 0, 0);"> *</span></label>
                     <select id="manual_disponivel" required name="manual">
                         <option value="" disabled selected>Selecione uma opção</option>
-                        <option value="sim">Sim</option>
-                        <option value="nao">Não</option>
-                        <option value="nao_sei">Não Sei</option>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                        <option value="Não Sei">Não Sei</option>
                     </select>
                     <br><br>
 
@@ -100,9 +100,9 @@
                     <label for="proprio_ou_contratado">Próprio ou Contratado? <span style="color: rgb(255, 0, 0);"> *</span></label>
                     <select id="proprio_ou_contratado" name="propriooucontrato" required>
                         <option value="" disabled selected>Selecione uma opção</option>
-                        <option value="sim">Próprio</option>
-                        <option value="nao">Contratado</option>
-                        <option value="nao_sei">Não Sei</option>
+                        <option value="Próprio">Próprio</option>
+                        <option value="Contratado">Contratado</option>
+                        <option value="Não Sei">Não Sei</option>
                     </select>
                     <br><br>
 
@@ -137,27 +137,27 @@
                     <label for="estado_proprietario">O Estado é proprietário da solução? <span style="color: rgb(255, 0, 0);"> *</span></label>
                     <select id="estado_proprietario" name="estadoproprietario" required>
                         <option value="" disabled selected>Selecione uma opção</option>
-                        <option value="sim">Sim</option>
-                        <option value="nao">Não</option>
-                        <option value="nao_sei">Não Sei</option>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                        <option value="Não Sei">Não Sei</option>
                     </select>
                     <br><br>
 
                     <label for="solucao_compartilhada">A solução é compartilhada com outros órgãos/instituições? <span style="color: rgb(255, 0, 0);"> *</span></label>
                     <select id="solucao_compartilhada" name="soluçaocompartilhada" required>
                         <option value="" disabled selected>Selecione uma opção</option>
-                        <option value="sim">Sim</option>
-                        <option value="nao">Não</option>
-                        <option value="nao_sei">Não Sei</option>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                        <option value="Não Sei">Não Sei</option>
                     </select>
                     <br><br>
 
                     <label for="soluçao">A solução está atualmente em uso? <span style="color: rgb(255, 0, 0);"> *</span></label>
                     <select id="soluçao" name="solucaoemuso" required>
                         <option value="" disabled selected>Selecione uma opção</option>
-                        <option value="sim">Sim</option>
-                        <option value="nao">Não</option>
-                        <option value="nao_sei">Não Sei</option>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                        <option value="Não Sei">Não Sei</option>
                     </select>
                     <br><br>
 
@@ -176,9 +176,9 @@
                     <label for="suporte_de_atualizacao">Existe suporte de atualização? <span style="color: rgb(255, 0, 0);"> *</span></label>
                     <select name="suportedeatualizacao" id="suporte_de_atualizacao" required> 
                         <option value="" disabled selected>Selecione uma opção</option>
-                        <option value="sim">Sim</option>
-                        <option value="nao">Não</option>
-                        <option value="nao_sei">Não Sei</option>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                        <option value="Não Sei">Não Sei</option>
                     </select>
                     <br><br>
 
@@ -197,24 +197,24 @@
 
                     <div id="qualInterfaceAoPainel">
                     <label for="qualInterfaceAoPainel">Qual? <span style="color: rgb(255, 0, 0);"> *</span></label>
-                    <input type="text" id="qualInterfaceAoPainel" name="qualInterfaceAoPainel" required></div>
+                    <input type="text" id="qualInterfaceAoPainel" name="qualInterfaceAoPainel"></div>
                     <br><br>
 
                     <label for="aplicacoes_api">Permite API (Aplicações)? <span style="color: rgb(255, 0, 0);"> *</span></label>
                     <select name="aplicacoesapi" id="aplicacoes_api" required>
                         <option value="" disabled selected>Selecione uma opção</option>
-                        <option value="sim">Sim</option>
-                        <option value="nao">Não</option>
-                        <option value="nao_sei">Não Sei</option>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                        <option value="Não Sei">Não Sei</option>
                     </select>
                     <br><br>
 
                     <label for="permite_plugins">Permite Plugins (Extensões)? <span style="color: rgb(255, 0, 0);"> *</span></label>
                     <select name="permiteplugins" id="permite_plugins" required>
                         <option value="" disabled selected>Selecione uma opção</option>
-                        <option value="sim">Sim</option>
-                        <option value="nao">Não</option>
-                        <option value="nao_sei">Não Sei</option>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                        <option value="Não Sei">Não Sei</option>
                     </select>
                     <br><br>
 
@@ -248,6 +248,7 @@
             }
             document.getElementById("simInfoSigilosa").addEventListener("click", mostrarCampoSigiloso)
             document.getElementById("naoInfoSigilosa").addEventListener("click", ocultarCampoSigiloso)
+
             function mostrarCampoInterfaceAoPainel() {
                 const campoInterfaceAoPainel = document.getElementById("campoInterfaceAoPainel")
                 const qualInterfaceAoPainel = document.getElementById("qualInterfaceAoPainel")
@@ -269,6 +270,7 @@
             }
             document.getElementById("simInterfaceAoPainel").addEventListener("click", mostrarCampoInterfaceAoPainel)
             document.getElementById("naoInterfaceAoPainel").addEventListener("click", ocultarCampoInterfaceAoPainel)
+            
         </script>
         <style>
 .container{

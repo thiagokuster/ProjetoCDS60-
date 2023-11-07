@@ -5,3 +5,4 @@ define('PASS', '');
 define('BASE','teste');
 
 $conn = new MySQLi(HOST,USER,PASS,BASE);
+?>
